@@ -1,0 +1,5 @@
+function callbackPriklad(callback) {
+
+  
+
+}
