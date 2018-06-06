@@ -10,3 +10,17 @@
   * GLOBAL SCOPE
   */
  var a = 0;
+
+
+ // ----
+
+ if (false) {
+   if (true) {
+     if (true) {
+   
+     }
+   }
+ }
+
+ // 
+ console.log(x);
