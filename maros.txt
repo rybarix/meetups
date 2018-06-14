@@ -1,0 +1,25 @@
+Uloha 1.
+
+Dajme tomu ze chceme spravit software na 3D editaciu. Program bude v podstate v prvom kroku robit outliner, co znamena stromovu hierarchiu objektov v 3D scene.
+Chcem aby si spravil ten outliner pomocou jednosmerne spajaneho zoznamu. Spajany zoznam bude obsahovat taktiez spajany zoznam podriadenych objektov, co v praxi znamena, ze mozes parentovat objekty k inym objektom.
+
+vyzerat to vyzera takto
+
+-root
+	-body
+		-head
+		-upper-body
+			-leftarm
+			-rightarm
+			-torso
+		-lower body
+			-hips
+			-leftleg
+				-foot
+			-rightleg
+				foot
+
+pricom kazda vnorena uroven je child aktualneho objektu.
+Ked sa pozres, tak toto je standardny outline 3D modelu biped humanoida pripravena na animaciu.
+
+Sprav program, co ti umozni vytvorit takuto stromovu strukturu a nasledne ju vypise na standardny vystup (pre vnorenie pouzi taby pri vypise)
